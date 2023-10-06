@@ -1,0 +1,31 @@
+@font-face {
+    font-family: head;
+    src: url("https://fonts.googleapis.com");
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+/* h1{
+    font-size: 300px;
+    font-weight: 900;
+    background-image: url(https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+} */
+
+h1{
+    font-weight: 900;
+    font-stretch: 150%;
+    font-size: 80px;
+    font-family: head;
+    transition: all ease-in 0.5s;
+}
+h1:hover{
+    font-stretch: 250%;
+    background-color: red;
+}
