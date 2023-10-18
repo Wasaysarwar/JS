@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+    <div>
+        <H1>Calculator...</H1>
+    </div>
+
+    <div>
+        <input readonly type="text" id="inp">
+    </div><br>
+    <div>
+        <div>
+            <button onclick="clrall()">Clear</button>
+            <button id="z" onclick="clr()">ClearAll</button>
+        </div><br>
+        <button onclick="c(7)">7</button>
+        <button onclick="c(8)">8</button>
+        <button onclick="c(9)">9</button>
+        <button onclick="c('+')">+</button>
+    </div><br>
+    <div>
+        <button onclick="c(4)">4</button>
+        <button onclick="c(5)">5</button>
+        <button onclick="c(6)">6</button>
+        <button onclick="c('-')">-</button>
+    </div>
+    <br>
+    <div>
+        <button onclick="c(1)">1</button>
+        <button onclick="c(2)">2</button>
+        <button onclick="c(3)">3</button>
+        <button onclick="c('*')">*</button>
+    </div>
+    <br>    
+    <div>
+        <button onclick="c(0)">0</button>
+        <button onclick="cal()">=</button>
+        <button onclick="c('%')">%</button>
+        <button onclick="c('/')">/</button>
+    </div>
+
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, black , skyblue);
+}
+.main {
+    text-align: center; 
+}
+button{
+    background: linear-gradient(30deg,black, darkblue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+}
+
+#z{
+    height: 30px;
+    width: 60px;
+}
+button:hover{
+   transform: scale(0.9)
+}
+button:active{
+    transform: scale(0.6);
+}
+#inp{
+   background: linear-gradient(45deg , darkblue , black) ;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   height: 30px;
+   width: 200px;
+}
+#inp:focus{
+    box-shadow: 5px 5px 8px  white;
+}
+h1{
+    background: linear-gradient(45deg,black,blue);
+    -webkit-background-clip: text;
+    transition: all ease 0.2s;
+}
+h1:hover{
+    box-shadow: 3px 4px 4px white;
+    transform: translate(3px ,4px)
+}
